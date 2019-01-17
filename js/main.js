@@ -28,6 +28,7 @@
     }
 
     const heromp = new DragonFantasyMp(0);
+    console.log(heromp.showMp());
 
 
 }

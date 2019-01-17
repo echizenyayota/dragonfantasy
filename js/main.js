@@ -13,7 +13,7 @@
         }
     }
 
-    const hero = new DragonFantasy('Tom', '勇者', '100');
+    const hero = new DragonFantasy('Tom', '勇者', 100);
     console.log(hero.show());
 
     class DragonFantasyMp extends DragonFantasy {
@@ -26,5 +26,8 @@
             return `${this.job}の最初のMPは${this.mp}です。`;
         }
     }
+
+    const heromp = new DragonFantasyMp('Tom', '勇者', 100, 0);
+
 
 }

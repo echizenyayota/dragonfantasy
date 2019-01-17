@@ -25,8 +25,9 @@
         showMp() {
             return `${this.job}の最初のMPは${this.mp}です。`;
         }
-
     }
+
+    const heromp = new DragonFantasyMp(0);
 
 
 }

@@ -17,7 +17,10 @@
     console.log(hero.show());
 
     class DragonFantasyMp extends DragonFantasy {
-        
+        constructor(name, job, hp, mp) {
+            super(name, job, hp);
+            this.mp = mp;
+        }
     }
 
 }
